@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt={title}
           className='w-16 h-16 object-contain'
         />
 
@@ -47,11 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m an incoming <strong>Software Development Engineer in Test (SDET)</strong> 
+  excited to start my professional journey in ensuring software quality.  
+  My work will involve designing and running tests, building automation scripts, 
+  and collaborating with developers to make sure applications work reliably and efficiently.  
+  With a foundation in programming and problem-solving, I’m eager to apply my skills, 
+  learn industry best practices, and contribute to delivering high-quality software 
+  from day one.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
